@@ -3,10 +3,12 @@ import { RouterOutlet } from '@angular/router';
 import { NavBar } from "./components/nav-bar/nav-bar";
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { AboutMe } from "./components/about-me/about-me";
+import { MySkills } from "./components/my-skills/my-skills";
 
 @Component({
   selector: 'app-root',
-  imports: [NavBar,FontAwesomeModule],
+  imports: [NavBar, FontAwesomeModule, AboutMe, MySkills],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

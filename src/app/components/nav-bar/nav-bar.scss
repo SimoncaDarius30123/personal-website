@@ -7,13 +7,21 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 3vh;
+    
+
+    &.scrolled{
+        position: fixed;
+        padding-bottom: 6vh;
+        background-color: #232322;
+        transition: 0.1s ease-in;
+    }  
 
     .logo{
         width: 30%;
         display: flex;
         align-items: center;
-        
+        margin-top: 6vh;
+
         img{
             width: 21%;
             margin-left: 3vw;
@@ -23,7 +31,7 @@
 
     .sections{
         width: 70%;
-        
+        margin-top: 6vh;
         
         ul{
             display: flex;
@@ -37,6 +45,12 @@
                 font-family: 'k2d';
                 color:#fff;
                 font-size: 2.9vh;
+                
+                a{
+                    text-decoration: none;
+                    color:inherit;
+                }
+                
 
                 &:hover{
                     color:#dccfcf
