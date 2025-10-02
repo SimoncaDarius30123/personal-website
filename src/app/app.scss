@@ -107,3 +107,49 @@ section{
         }
     }
 }
+
+footer{
+
+    height: auto;
+    background-color:black ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+
+    .footerContainer{
+        margin-top: 15vh;
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a{
+            text-decoration: none;
+
+            fa-icon{
+                color:#fff;
+                font-size: 1.8rem;
+
+                &:hover{
+                    color: #c0b3b3;
+                }
+            }
+        }
+    }
+
+
+
+    p{
+        margin-top: 30px;
+        color:#fff;
+        font-family: 'k2d';
+        font-weight: bold;
+        font-size: 1rem;
+        margin-bottom: 20px;
+        letter-spacing: 3px;
+    }
+}

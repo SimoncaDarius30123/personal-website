@@ -6,10 +6,11 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AboutMe } from "./components/about-me/about-me";
 import { MySkills } from "./components/my-skills/my-skills";
 import { MyPortofolio } from "./components/my-portofolio/my-portofolio";
+import { Contact } from "./components/contact/contact";
 
 @Component({
   selector: 'app-root',
-  imports: [NavBar, FontAwesomeModule, AboutMe, MySkills, MyPortofolio],
+  imports: [NavBar, FontAwesomeModule, AboutMe, MySkills, MyPortofolio, Contact],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
