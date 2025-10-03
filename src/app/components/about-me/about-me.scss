@@ -46,6 +46,11 @@ section{
 @media (min-width: 768px) and (max-width: 1039px){
     section{
         height: auto;
+        .container{
+            p{
+                padding-bottom: 15px;
+            }
+        }
     }
 }
 
