@@ -42,3 +42,45 @@ section{
     }
 
 }
+
+@media (min-width: 768px) and (max-width: 1039px){
+    section{
+        height: auto;
+    }
+}
+
+@media (max-width: 767px){
+     section{
+        height: auto;
+
+        .container{
+        h1{
+            font-size: 1.4rem;
+        }
+        p{
+            text-align: center;
+            font-size: 1.1rem;
+            padding-bottom: 15px;
+        }
+    }
+    }
+
+    
+}
+
+@media (max-width: 400px){
+    section{
+        height: auto;
+
+        .container{
+        h1{
+            font-size: 1.1rem;
+        }
+        p{
+            text-align: center;
+            font-size: 1rem;
+            padding-bottom: 15px;
+        }
+    }
+    }
+}

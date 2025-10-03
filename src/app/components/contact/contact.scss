@@ -55,3 +55,57 @@ section{
         }
     }
 }
+
+@media (min-width: 768px) and (max-width: 1024px){
+    section{
+        .container{
+            width: 70%;
+            .element{
+                
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    section{
+
+        .text{
+            h1{
+                font-size: 1.4rem;
+            }
+        }
+        .container{
+            width: 100%;
+            .element{
+                
+                width: 100%;
+                h3{
+                    font-size:0.9rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px){
+section{
+
+        .text{
+            h1{
+                font-size: 1.1rem;
+            }
+        }
+        .container{
+            width: 100%;
+            .element{
+                
+                width: 100%;
+                h3{
+                    font-size:0.8rem;
+                }
+            }
+        }
+    }
+}

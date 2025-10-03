@@ -10,4 +10,21 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
+    <div class="mobileIconMenu" (click)="showMobileMenu()">
+        <fa-icon [icon]="faBars" />
+    </div>
+
+    <div class="mobileMenu" [ngClass]="{'isClicked': isClicked}">
+        <ul>
+            <a href="#aboutMe"><li>About</li></a>
+            <hr>
+            <a href="#mySkills"><li>Skills</li></a>
+            <hr>
+            <a href="#myPortofolio"><li>Portofolio</li></a>
+            <hr>
+            <a href="#contact"><li>Contact</li></a>
+            <hr>
+        </ul>
+    </div>
+    
 </div>

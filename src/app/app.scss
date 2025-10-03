@@ -153,3 +153,142 @@ footer{
         letter-spacing: 3px;
     }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    header{
+    background-image: url("../../public/bgMobile.png");
+    background-position: center;
+    background-size: cover;
+
+        .container{
+            display: flex;
+            flex-direction: column-reverse;
+
+            .text{
+                display: flex;
+                flex-direction: column;
+                align-items: end;
+                
+                width: 90%;
+            }
+
+            .image{
+                width: 100%;
+                
+                img{
+                    width: 30%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    header{
+    background-image: url("../../public/bgMobile.png");
+    background-position: center;
+    background-size: cover;
+
+        .container{
+            display: flex;
+            flex-direction: column-reverse;
+
+            .text{
+                display: flex;
+                flex-direction: column;
+                align-items: end;
+                
+                width: 90%;
+
+                h1{
+                    font-size: 2.5rem;
+                }
+            }
+
+            .image{
+                width: 100%;
+                
+                img{
+                    width: 50%;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+
+    section{
+        display: flex;
+        justify-content: center;
+        
+        p{
+            margin-left: 0;
+            width: 90%;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+    }
+
+    footer{
+        p{
+            font-size: 1rem;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 400px){
+    header{
+    background-image: url("../../public/bgMobile.png");
+    background-position: center;
+    background-size: cover;
+
+        .container{
+            display: flex;
+            flex-direction: column-reverse;
+
+            .text{
+                display: flex;
+                flex-direction: column;
+                align-items: end;
+                
+                width: 90%;
+
+                h2{
+                    font-size: 1.3rem;
+                }
+
+                h3{
+                    font-size: 0.9rem;
+                }
+
+                h1{
+                    font-size: 2rem;
+                }
+            }
+        }
+
+       
+    }
+
+    section{
+        display: flex;
+        justify-content: center;
+        
+        p{
+            margin-left: 0;
+            width: 90%;
+            font-size: 1rem;
+            text-align: center;
+        }
+    }
+
+    footer{
+
+        .footerContainer{
+            width: 23%;
+        }
+        p{
+            font-size: 0.8rem;
+        }
+    }
+}
